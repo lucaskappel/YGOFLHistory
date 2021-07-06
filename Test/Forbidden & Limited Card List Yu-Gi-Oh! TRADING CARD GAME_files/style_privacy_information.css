@@ -1,0 +1,363 @@
+@charset "UTF-8";
+
+/* リセット系 */
+#privacy-information-age-gate div, #privacy-information-age-gate span, #privacy-information-age-gate applet, #privacy-information-age-gate object, #privacy-information-age-gate iframe,
+#privacy-information-age-gate h1, #privacy-information-age-gate h2, #privacy-information-age-gate h3, #privacy-information-age-gate h4, #privacy-information-age-gate h5, #privacy-information-age-gate h6, #privacy-information-age-gate p, #privacy-information-age-gate blockquote, #privacy-information-age-gate pre,
+#privacy-information-age-gate a, #privacy-information-age-gate abbr, #privacy-information-age-gate acronym, #privacy-information-age-gate address, #privacy-information-age-gate big, #privacy-information-age-gate cite, #privacy-information-age-gate code,
+#privacy-information-age-gate del, #privacy-information-age-gate dfn, #privacy-information-age-gate em, #privacy-information-age-gate img, #privacy-information-age-gate ins, #privacy-information-age-gate kbd, #privacy-information-age-gate q, #privacy-information-age-gate s, #privacy-information-age-gate samp,
+#privacy-information-age-gate small, #privacy-information-age-gate strike, #privacy-information-age-gate strong, #privacy-information-age-gate sub, #privacy-information-age-gate sup, #privacy-information-age-gate tt, #privacy-information-age-gate var,
+#privacy-information-age-gate b, #privacy-information-age-gate u, #privacy-information-age-gate i, #privacy-information-age-gate center,
+#privacy-information-age-gate dl, #privacy-information-age-gate dt, #privacy-information-age-gate dd, #privacy-information-age-gate ol, #privacy-information-age-gate ul, #privacy-information-age-gate li,
+#privacy-information-age-gate fieldset, #privacy-information-age-gate form, #privacy-information-age-gate label, #privacy-information-age-gate legend,
+#privacy-information-age-gate table, #privacy-information-age-gate caption, #privacy-information-age-gate tbody, #privacy-information-age-gate tfoot, #privacy-information-age-gate thead, #privacy-information-age-gate tr, #privacy-information-age-gate th, #privacy-information-age-gate td,
+#privacy-information-age-gate article, #privacy-information-age-gate aside, #privacy-information-age-gate canvas, #privacy-information-age-gate details, #privacy-information-age-gate embed,
+#privacy-information-age-gate figure, #privacy-information-age-gate figcaption, #privacy-information-age-gate footer, #privacy-information-age-gate header, #privacy-information-age-gate hgroup,
+#privacy-information-age-gate menu, #privacy-information-age-gate nav, #privacy-information-age-gate output, #privacy-information-age-gate ruby, #privacy-information-age-gate section, #privacy-information-age-gate summary,
+#privacy-information-age-gate time, #privacy-information-age-gate mark, #privacy-information-age-gate audio, #privacy-information-age-gate video,
+#privacy-information-cookie-notice div,
+#privacy-information-cookie-notice span,
+#privacy-information-cookie-notice applet,
+#privacy-information-cookie-notice object,
+#privacy-information-cookie-notice iframe,
+#privacy-information-cookie-notice h1,
+#privacy-information-cookie-notice h2,
+#privacy-information-cookie-notice h3,
+#privacy-information-cookie-notice h4,
+#privacy-information-cookie-notice h5,
+#privacy-information-cookie-notice h6,
+#privacy-information-cookie-notice p,
+#privacy-information-cookie-notice blockquote,
+#privacy-information-cookie-notice pre,
+#privacy-information-cookie-notice a,
+#privacy-information-cookie-notice abbr,
+#privacy-information-cookie-notice acronym,
+#privacy-information-cookie-notice address,
+#privacy-information-cookie-notice big,
+#privacy-information-cookie-notice cite,
+#privacy-information-cookie-notice code,
+#privacy-information-cookie-notice del,
+#privacy-information-cookie-notice dfn,
+#privacy-information-cookie-notice em,
+#privacy-information-cookie-notice img,
+#privacy-information-cookie-notice ins,
+#privacy-information-cookie-notice kbd,
+#privacy-information-cookie-notice q,
+#privacy-information-cookie-notice s,
+#privacy-information-cookie-notice samp,
+#privacy-information-cookie-notice small,
+#privacy-information-cookie-notice strike,
+#privacy-information-cookie-notice strong,
+#privacy-information-cookie-notice sub,
+#privacy-information-cookie-notice sup,
+#privacy-information-cookie-notice tt,
+#privacy-information-cookie-notice var,
+#privacy-information-cookie-notice b,
+#privacy-information-cookie-notice u,
+#privacy-information-cookie-notice i,
+#privacy-information-cookie-notice center,
+#privacy-information-cookie-notice dl,
+#privacy-information-cookie-notice dt,
+#privacy-information-cookie-notice dd,
+#privacy-information-cookie-notice ol,
+#privacy-information-cookie-notice ul,
+#privacy-information-cookie-notice li,
+#privacy-information-cookie-notice fieldset,
+#privacy-information-cookie-notice form,
+#privacy-information-cookie-notice label,
+#privacy-information-cookie-notice legend,
+#privacy-information-cookie-notice table,
+#privacy-information-cookie-notice caption,
+#privacy-information-cookie-notice tbody,
+#privacy-information-cookie-notice tfoot,
+#privacy-information-cookie-notice thead,
+#privacy-information-cookie-notice tr,
+#privacy-information-cookie-notice th,
+#privacy-information-cookie-notice td,
+#privacy-information-cookie-notice article,
+#privacy-information-cookie-notice aside,
+#privacy-information-cookie-notice canvas,
+#privacy-information-cookie-notice details,
+#privacy-information-cookie-notice embed,
+#privacy-information-cookie-notice figure,
+#privacy-information-cookie-notice figcaption,
+#privacy-information-cookie-notice footer,
+#privacy-information-cookie-notice header,
+#privacy-information-cookie-notice hgroup,
+#privacy-information-cookie-notice menu,
+#privacy-information-cookie-notice nav,
+#privacy-information-cookie-notice output,
+#privacy-information-cookie-notice ruby,
+#privacy-information-cookie-notice section,
+#privacy-information-cookie-notice summary,
+#privacy-information-cookie-notice time,
+#privacy-information-cookie-notice mark,
+#privacy-information-cookie-notice audio,
+#privacy-information-cookie-notice video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+#privacy-information-age-gate ol, #privacy-information-age-gate ul,
+#privacy-information-cookie-notice ol,
+#privacy-information-cookie-notice ul {
+    list-style: none;
+}
+
+#privacy-information-age-gate table,
+#privacy-information-cookie-notice table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+#privacy-information-age-gate caption, #privacy-information-age-gate th, #privacy-information-age-gate td,
+#privacy-information-cookie-notice caption,
+#privacy-information-cookie-notice th,
+#privacy-information-cookie-notice td {
+    text-align: left;
+    font-weight: normal;
+    vertical-align: middle;
+}
+
+#privacy-information-age-gate q, #privacy-information-age-gate blockquote,
+#privacy-information-cookie-notice q,
+#privacy-information-cookie-notice blockquote {
+    quotes: none;
+}
+
+#privacy-information-age-gate q:before, #privacy-information-age-gate q:after, #privacy-information-age-gate blockquote:before, #privacy-information-age-gate blockquote:after,
+#privacy-information-cookie-notice q:before,
+#privacy-information-cookie-notice q:after,
+#privacy-information-cookie-notice blockquote:before,
+#privacy-information-cookie-notice blockquote:after {
+    content: "";
+    content: none;
+}
+
+#privacy-information-age-gate a img,
+#privacy-information-cookie-notice a img {
+    border: none;
+}
+
+#privacy-information-age-gate a,
+#privacy-information-cookie-notice a {
+    text-decoration: none;
+}
+
+#privacy-information-age-gate article, #privacy-information-age-gate aside, #privacy-information-age-gate details, #privacy-information-age-gate figcaption, #privacy-information-age-gate figure, #privacy-information-age-gate footer, #privacy-information-age-gate header, #privacy-information-age-gate hgroup, #privacy-information-age-gate menu, #privacy-information-age-gate nav, #privacy-information-age-gate section, #privacy-information-age-gate summary,
+#privacy-information-cookie-notice article,
+#privacy-information-cookie-notice aside,
+#privacy-information-cookie-notice details,
+#privacy-information-cookie-notice figcaption,
+#privacy-information-cookie-notice figure,
+#privacy-information-cookie-notice footer,
+#privacy-information-cookie-notice header,
+#privacy-information-cookie-notice hgroup,
+#privacy-information-cookie-notice menu,
+#privacy-information-cookie-notice nav,
+#privacy-information-cookie-notice section,
+#privacy-information-cookie-notice summary {
+    display: block;
+}
+
+#privacy-information-age-gate select,
+#privacy-information-cookie-notice select {
+    visibility: visible;
+    vertical-align: bottom;
+    -webkit-appearance: menulist;
+    color: #101010;
+}
+
+#privacy-information-age-gate *:after, #privacy-information-age-gate *:before,
+#privacy-information-cookie-notice *:after,
+#privacy-information-cookie-notice *:before {
+    content: none;
+}
+
+
+#privacy-information-age-gate .kdepi-fade {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 10000;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+#privacy-information-age-gate {
+    transition: opacity ease 800ms;
+}
+
+#privacy-information-age-gate.kdepi-close {
+    opacity: 0.0;
+}
+
+#privacy-information-age-gate .kdepi-panel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #dedede;
+    width: 100%;
+    max-width: 400px;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.7);
+    box-shadow: #000 0 0 2px 0;
+}
+
+#privacy-information-age-gate .kdepi-content {
+    display: block;
+    visibility: visible;
+    margin: 0;
+    padding: 10px 0;
+}
+
+#privacy-information-age-gate p {
+    margin-bottom: 40px;
+}
+
+#privacy-information-age-gate select {
+    position: static;
+    visibility: visible;
+    height: 30px;
+    margin-right: 6px;
+    padding: 6px 4px;
+    background-color: #fff;
+    border: 1px solid #D1D1D1;
+    border-radius: 4px;
+    box-shadow: none;
+    box-sizing: border-box;
+    transition: border .2s ease;
+}
+
+#privacy-information-age-gate select:focus {
+    border: 1px solid #33C3F0;
+    outline: 0;
+}
+
+#privacy-information-age-gate select.kdepi-error {
+    border: 1px solid #ff5050;
+    background-color: #ffdcdc;
+}
+
+#privacy-information-age-gate a {
+    display: inline-block;
+    height: 30px;
+    padding: 0 10px;
+    text-align: center;
+    vertical-align: bottom;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    white-space: nowrap;
+    border-radius: 4px;
+    cursor: pointer;
+    box-sizing: border-box;
+    color: #FFF;
+    background-color: #33C3F0;
+    border: 1px solid #33C3F0;
+    transition: background-color .2s ease, border .2s ease;
+}
+
+#privacy-information-age-gate a:hover,
+#privacy-information-age-gate a:focus {
+    color: #FFF;
+    background-color: #1EAEDB;
+    border-color: #1EAEDB;
+}
+
+#privacy-information-cookie-notice {
+    position: fixed;
+    z-index: 10000;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.75);
+    box-shadow: 0 0 4px 0 rgba(42, 42, 42, 0.79);
+    color: #dedede;
+    transition: opacity ease 800ms;
+}
+
+#privacy-information-cookie-notice.kdepi-close {
+    opacity: 0;
+}
+
+#privacy-information-cookie-notice .kdepi-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 0 10px;
+    box-sizing: border-box;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+#privacy-information-cookie-notice .kdepi-cookie-notice {
+    padding: 10px 0;
+}
+
+#privacy-information-cookie-notice .kdepi-cookie-notice p a {
+    color: #33C3F0;
+    text-decoration: none;
+    margin: 0 1em;
+    transition: color .2s ease;
+}
+
+#privacy-information-cookie-notice .kdepi-cookie-notice p a:hover {
+    color: #1EAEDB;
+    text-decoration: underline;
+}
+
+#privacy-information-cookie-notice a#privacy-information-cookie-notice-opt-in {
+    width: 100%;
+    margin: 10px 0;
+    padding: 0 10px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    white-space: nowrap;
+    border-radius: 4px;
+    cursor: pointer;
+    box-sizing: border-box;
+    color: #FFF;
+    background-color: #33C3F0;
+    border: 1px solid #33C3F0;
+    transition: background-color .2s ease, border .2s ease;
+}
+
+#privacy-information-cookie-notice a#privacy-information-cookie-notice-opt-in:hover,
+#privacy-information-cookie-notice a#privacy-information-cookie-notice-opt-in:focus {
+    color: #FFF;
+    background-color: #1EAEDB;
+    border-color: #1EAEDB;
+}
+
+@media screen and (min-width: 768px) {
+    #privacy-information-cookie-notice {
+        padding: 20px 0;
+    }
+
+    #privacy-information-cookie-notice .kdepi-content {
+        flex-direction: row;
+    }
+
+    #privacy-information-cookie-notice a#privacy-information-cookie-notice-opt-in {
+        flex: 0 0 200px;
+    }
+
+}
